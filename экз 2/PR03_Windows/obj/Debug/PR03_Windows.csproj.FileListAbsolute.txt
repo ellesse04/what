@@ -1,0 +1,67 @@
+D:\Шарага\3_kurs\@Praktika\PR03\PR03_Windows\PR03_Windows\bin\Debug\PR03_Windows.exe.config
+D:\Шарага\3_kurs\@Praktika\PR03\PR03_Windows\PR03_Windows\bin\Debug\PR03_Windows.exe
+D:\Шарага\3_kurs\@Praktika\PR03\PR03_Windows\PR03_Windows\bin\Debug\PR03_Windows.pdb
+D:\Шарага\3_kurs\@Praktika\PR03\PR03_Windows\PR03_Windows\obj\Debug\PR03_Windows.csprojAssemblyReference.cache
+D:\Шарага\3_kurs\@Praktika\PR03\PR03_Windows\PR03_Windows\obj\Debug\MainWindow.g.cs
+D:\Шарага\3_kurs\@Praktika\PR03\PR03_Windows\PR03_Windows\obj\Debug\App.g.cs
+D:\Шарага\3_kurs\@Praktika\PR03\PR03_Windows\PR03_Windows\obj\Debug\PR03_Windows_MarkupCompile.cache
+D:\Шарага\3_kurs\@Praktika\PR03\PR03_Windows\PR03_Windows\obj\Debug\PR03_Windows_MarkupCompile.lref
+D:\Шарага\3_kurs\@Praktika\PR03\PR03_Windows\PR03_Windows\obj\Debug\MainWindow.baml
+D:\Шарага\3_kurs\@Praktika\PR03\PR03_Windows\PR03_Windows\obj\Debug\PR03_Windows.g.resources
+D:\Шарага\3_kurs\@Praktika\PR03\PR03_Windows\PR03_Windows\obj\Debug\PR03_Windows.Properties.Resources.resources
+D:\Шарага\3_kurs\@Praktika\PR03\PR03_Windows\PR03_Windows\obj\Debug\PR03_Windows.csproj.GenerateResource.cache
+D:\Шарага\3_kurs\@Praktika\PR03\PR03_Windows\PR03_Windows\obj\Debug\PR03_Windows.exe
+D:\Шарага\3_kurs\@Praktika\PR03\PR03_Windows\PR03_Windows\obj\Debug\PR03_Windows.pdb
+D:\Шарага\3_kurs\@Praktika\PR03\PR03_Windows\PR03_Windows\obj\Debug\CreationWindow.g.cs
+D:\Шарага\3_kurs\@Praktika\PR03\PR03_Windows\PR03_Windows\obj\Debug\CreationWindow.baml
+C:\Users\ftp_0\Desktop\PR03_Windows\PR03_Windows\bin\Debug\PR03_Windows.exe.config
+C:\Users\ftp_0\Desktop\PR03_Windows\PR03_Windows\bin\Debug\PR03_Windows.exe
+C:\Users\ftp_0\Desktop\PR03_Windows\PR03_Windows\bin\Debug\PR03_Windows.pdb
+C:\Users\ftp_0\Desktop\PR03_Windows\PR03_Windows\obj\Debug\PR03_Windows.csproj.AssemblyReference.cache
+C:\Users\ftp_0\Desktop\PR03_Windows\PR03_Windows\obj\Debug\CreationWindow.g.cs
+C:\Users\ftp_0\Desktop\PR03_Windows\PR03_Windows\obj\Debug\MainWindow.g.cs
+C:\Users\ftp_0\Desktop\PR03_Windows\PR03_Windows\obj\Debug\App.g.cs
+C:\Users\ftp_0\Desktop\PR03_Windows\PR03_Windows\obj\Debug\PR03_Windows_MarkupCompile.cache
+C:\Users\ftp_0\Desktop\PR03_Windows\PR03_Windows\obj\Debug\PR03_Windows_MarkupCompile.lref
+C:\Users\ftp_0\Desktop\PR03_Windows\PR03_Windows\obj\Debug\CreationWindow.baml
+C:\Users\ftp_0\Desktop\PR03_Windows\PR03_Windows\obj\Debug\MainWindow.baml
+C:\Users\ftp_0\Desktop\PR03_Windows\PR03_Windows\obj\Debug\PR03_Windows.g.resources
+C:\Users\ftp_0\Desktop\PR03_Windows\PR03_Windows\obj\Debug\PR03_Windows.Properties.Resources.resources
+C:\Users\ftp_0\Desktop\PR03_Windows\PR03_Windows\obj\Debug\PR03_Windows.csproj.GenerateResource.cache
+C:\Users\ftp_0\Desktop\PR03_Windows\PR03_Windows\obj\Debug\PR03_Windows.csproj.CoreCompileInputs.cache
+C:\Users\ftp_0\Desktop\PR03_Windows\PR03_Windows\obj\Debug\PR03_Windows.exe
+C:\Users\ftp_0\Desktop\PR03_Windows\PR03_Windows\obj\Debug\PR03_Windows.pdb
+C:\Users\ftp_0\Desktop\экз\PR03_Windows\bin\Debug\PR03_Windows.exe.config
+C:\Users\ftp_0\Desktop\экз\PR03_Windows\bin\Debug\PR03_Windows.exe
+C:\Users\ftp_0\Desktop\экз\PR03_Windows\bin\Debug\PR03_Windows.pdb
+C:\Users\ftp_0\Desktop\экз\PR03_Windows\obj\Debug\PR03_Windows.csproj.AssemblyReference.cache
+C:\Users\ftp_0\Desktop\экз\PR03_Windows\obj\Debug\CreationWindow.g.cs
+C:\Users\ftp_0\Desktop\экз\PR03_Windows\obj\Debug\MainWindow.g.cs
+C:\Users\ftp_0\Desktop\экз\PR03_Windows\obj\Debug\App.g.cs
+C:\Users\ftp_0\Desktop\экз\PR03_Windows\obj\Debug\PR03_Windows_MarkupCompile.cache
+C:\Users\ftp_0\Desktop\экз\PR03_Windows\obj\Debug\PR03_Windows_MarkupCompile.lref
+C:\Users\ftp_0\Desktop\экз\PR03_Windows\obj\Debug\CreationWindow.baml
+C:\Users\ftp_0\Desktop\экз\PR03_Windows\obj\Debug\MainWindow.baml
+C:\Users\ftp_0\Desktop\экз\PR03_Windows\obj\Debug\PR03_Windows.g.resources
+C:\Users\ftp_0\Desktop\экз\PR03_Windows\obj\Debug\PR03_Windows.Properties.Resources.resources
+C:\Users\ftp_0\Desktop\экз\PR03_Windows\obj\Debug\PR03_Windows.csproj.GenerateResource.cache
+C:\Users\ftp_0\Desktop\экз\PR03_Windows\obj\Debug\PR03_Windows.csproj.CoreCompileInputs.cache
+C:\Users\ftp_0\Desktop\экз\PR03_Windows\obj\Debug\PR03_Windows.exe
+C:\Users\ftp_0\Desktop\экз\PR03_Windows\obj\Debug\PR03_Windows.pdb
+C:\Users\ftp_0\Desktop\экз 2\PR03_Windows\bin\Debug\PR03_Windows.exe.config
+C:\Users\ftp_0\Desktop\экз 2\PR03_Windows\bin\Debug\PR03_Windows.exe
+C:\Users\ftp_0\Desktop\экз 2\PR03_Windows\bin\Debug\PR03_Windows.pdb
+C:\Users\ftp_0\Desktop\экз 2\PR03_Windows\obj\Debug\PR03_Windows.csproj.AssemblyReference.cache
+C:\Users\ftp_0\Desktop\экз 2\PR03_Windows\obj\Debug\CreationWindow.g.cs
+C:\Users\ftp_0\Desktop\экз 2\PR03_Windows\obj\Debug\MainWindow.g.cs
+C:\Users\ftp_0\Desktop\экз 2\PR03_Windows\obj\Debug\App.g.cs
+C:\Users\ftp_0\Desktop\экз 2\PR03_Windows\obj\Debug\PR03_Windows_MarkupCompile.cache
+C:\Users\ftp_0\Desktop\экз 2\PR03_Windows\obj\Debug\PR03_Windows_MarkupCompile.lref
+C:\Users\ftp_0\Desktop\экз 2\PR03_Windows\obj\Debug\CreationWindow.baml
+C:\Users\ftp_0\Desktop\экз 2\PR03_Windows\obj\Debug\MainWindow.baml
+C:\Users\ftp_0\Desktop\экз 2\PR03_Windows\obj\Debug\PR03_Windows.g.resources
+C:\Users\ftp_0\Desktop\экз 2\PR03_Windows\obj\Debug\PR03_Windows.Properties.Resources.resources
+C:\Users\ftp_0\Desktop\экз 2\PR03_Windows\obj\Debug\PR03_Windows.csproj.GenerateResource.cache
+C:\Users\ftp_0\Desktop\экз 2\PR03_Windows\obj\Debug\PR03_Windows.csproj.CoreCompileInputs.cache
+C:\Users\ftp_0\Desktop\экз 2\PR03_Windows\obj\Debug\PR03_Windows.exe
+C:\Users\ftp_0\Desktop\экз 2\PR03_Windows\obj\Debug\PR03_Windows.pdb

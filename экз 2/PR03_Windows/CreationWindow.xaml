@@ -1,0 +1,232 @@
+﻿<Window x:Class="PR03_Windows.CreationWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PR03_Windows"
+        mc:Ignorable="d"
+        FontFamily="MS Reference Sans Serif"
+        Background="#2b2727"
+        Foreground="#D9E0EE"
+        WindowStyle="None"
+        Height="500" Width="1000"
+        AllowsTransparency="True"
+        ResizeMode="NoResize"
+        WindowStartupLocation="CenterScreen"
+        BorderThickness="2"
+        BorderBrush="#302D41">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="20"/>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="20"/>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="2*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="2*"/>
+            <ColumnDefinition Width="2*"/>
+            <ColumnDefinition Width="2*"/>
+        </Grid.ColumnDefinitions>
+
+        <Border Grid.Row="0" Grid.ColumnSpan="4"
+                Background="#4d4646"
+                MouseDown="MoveBorder_MouseDown">
+
+            <Button Grid.Row="0" 
+                    Height="25" Width="25"
+                    HorizontalAlignment="Right"
+                    VerticalAlignment="Center"
+                    Background="Transparent"
+                    Foreground="#C9CBFF"
+                    Content="✕"
+                    BorderThickness="0"
+                    Click="AppClose"/>
+
+        </Border>
+
+        <TextBlock FontSize="30" 
+                   FontWeight="SemiBold" FontFamily="Calibri"
+                   TextAlignment="Center" Grid.Column="0" Grid.Row="1"
+                   Grid.ColumnSpan="4" VerticalAlignment="Center"
+                   HorizontalAlignment="Center"
+                   Text="Регистрация сотрудника"/>
+
+        <Button Grid.Column="0" Grid.Row="1" Margin="10,0,0,0"
+                Width="100" Height="25" FontSize="15"
+                VerticalAlignment="Center"
+                HorizontalAlignment="Left"
+                BorderThickness="1" BorderBrush="#C9CBFF"
+                Background="#302D41" Foreground="#D9E0EE"
+                ToolTip="Вернуться на страницу авторизации"
+                Name="BackAuthorizationButton"
+                Click="BackAuthorizationButton_Click"
+                Content="Выйти">
+            <Button.Resources>
+                <Style TargetType="Border">
+                    <Setter Property="CornerRadius" Value="5"/>
+                </Style>
+            </Button.Resources>
+        </Button>
+
+        <TextBox Grid.Column="2" Grid.Row="3"
+                 Width="230" Height="35"
+                 VerticalAlignment="Center"
+                 HorizontalAlignment="Center"
+                 Margin="0" Background="White"
+                 Foreground="Black" FontSize="20"
+                 BorderThickness="1" BorderBrush="#C9CBFF"
+                 VerticalContentAlignment="Center"
+                 HorizontalContentAlignment="Center"
+                 TextAlignment="Center" Name="TextBoxId"
+                 ToolTip="Числовой идентификатор">
+        </TextBox>
+
+        <TextBox Grid.Column="1" Grid.Row="4"
+                 Width="230" Height="35"
+                 VerticalAlignment="Center"
+                 HorizontalAlignment="Center"
+                 Margin="0" Background="White"
+                 Foreground="Black" FontSize="20"
+                 BorderThickness="1" BorderBrush="#C9CBFF"
+                 VerticalContentAlignment="Center"
+                 HorizontalContentAlignment="Center"
+                 TextAlignment="Center" Name="TextBoxFamiliya"
+                 ToolTip="С большой буквы, на русском">
+        </TextBox>
+
+        <TextBox Grid.Column="1" Grid.Row="5"
+                 Width="230" Height="35"
+                 VerticalAlignment="Center"
+                 HorizontalAlignment="Center"
+                 Margin="0" Background="White"
+                 Foreground="Black" FontSize="20"
+                 BorderThickness="1" BorderBrush="#C9CBFF"
+                 VerticalContentAlignment="Center"
+                 HorizontalContentAlignment="Center"
+                 TextAlignment="Center" Name="TextBoxImya"
+                 ToolTip="С большой буквы, на русском">
+        </TextBox>
+
+        <TextBox Grid.Column="1" Grid.Row="6"
+                 Width="230" Height="35"
+                 VerticalAlignment="Center"
+                 HorizontalAlignment="Center"
+                 Margin="0" Background="White"
+                 Foreground="Black" FontSize="20"
+                 BorderThickness="1" BorderBrush="#C9CBFF"
+                 VerticalContentAlignment="Center"
+                 HorizontalContentAlignment="Center"
+                 TextAlignment="Center" Name="TextBoxOtchestvo"
+                 ToolTip="С большой буквы, на русском">
+        </TextBox>
+
+        <TextBox Grid.Column="3" Grid.Row="4"
+                 Width="230" Height="35"
+                 VerticalAlignment="Center"
+                 HorizontalAlignment="Center"
+                 Margin="0" Background="White"
+                 Foreground="Black" FontSize="20"
+                 BorderThickness="1" BorderBrush="#C9CBFF"
+                 VerticalContentAlignment="Center"
+                 HorizontalContentAlignment="Center"
+                 TextAlignment="Center" Name="TextBoxPassport"
+                 ToolTip="Серия и номер, без пробелов">
+        </TextBox>
+
+        <TextBox Grid.Column="3" Grid.Row="5"
+                 Width="230" Height="35"
+                 VerticalAlignment="Center"
+                 HorizontalAlignment="Center"
+                 Margin="0" Background="White"
+                 Foreground="Black" FontSize="20"
+                 BorderThickness="1" BorderBrush="#C9CBFF"
+                 VerticalContentAlignment="Center"
+                 HorizontalContentAlignment="Center"
+                 TextAlignment="Center" Name="TextBoxPhone"
+                 ToolTip="Формат:&#x0a;8xxxxxxxxxx&#x0a;+7xxxxxxxxxx">
+        </TextBox>
+
+        <TextBox Grid.Column="3" Grid.Row="6"
+                 Width="230" Height="35"
+                 VerticalAlignment="Center"
+                 HorizontalAlignment="Center"
+                 Margin="0" Background="White"
+                 Foreground="Black" FontSize="20"
+                 BorderThickness="1" BorderBrush="#C9CBFF"
+                 VerticalContentAlignment="Center"
+                 HorizontalContentAlignment="Center"
+                 TextAlignment="Center" Name="TextBoxEmail"
+                 ToolTip="Формат:&#x0a;xxxxx@firma.ru&#x0a;Только латиница и нижнее подчеркивание">
+        </TextBox>
+
+        <TextBlock Grid.Column="1" Grid.Row="3"
+                   Width="165" Height="30"
+                   VerticalAlignment="Center"
+                   HorizontalAlignment="Right"
+                   Margin="0,0,10,0" FontSize="20"
+                   TextAlignment="Center" Text="Идентификатор"/>
+
+        <TextBlock Grid.Column="0" Grid.Row="4"
+                   Width="100" Height="30"
+                   VerticalAlignment="Center"
+                   HorizontalAlignment="Right"
+                   Margin="0,0,10,0" FontSize="20"
+                   TextAlignment="Center" Text="Фамилия"/>
+
+        <TextBlock Grid.Column="0" Grid.Row="5"
+                   Width="50" Height="30"
+                   VerticalAlignment="Center"
+                   HorizontalAlignment="Right"
+                   Margin="0,0,10,0" FontSize="20"
+                   TextAlignment="Center" Text="Имя"/>
+
+        <TextBlock Grid.Column="0" Grid.Row="6"
+                   Width="100" Height="30"
+                   VerticalAlignment="Center"
+                   HorizontalAlignment="Right"
+                   Margin="0,0,10,0" FontSize="20"
+                   TextAlignment="Center" Text="Отчество"/>
+
+        <TextBlock Grid.Column="2" Grid.Row="4"
+                   Width="210" Height="30"
+                   VerticalAlignment="Center"
+                   HorizontalAlignment="Right"
+                   Margin="0,0,10,0" FontSize="20"
+                   TextAlignment="Center" Text="Паспортные данные"/>
+
+        <TextBlock Grid.Column="2" Grid.Row="5"
+                   Width="175" Height="30"
+                   VerticalAlignment="Center"
+                   HorizontalAlignment="Right"
+                   Margin="0,0,10,0" FontSize="20"
+                   TextAlignment="Center" Text="Номер телефона"/>
+
+        <TextBlock Grid.Column="2" Grid.Row="6"
+                   Width="65" Height="30"
+                   VerticalAlignment="Center"
+                   HorizontalAlignment="Right"
+                   Margin="0,0,10,0" FontSize="20"
+                   TextAlignment="Center" Text="E-mail"/>
+
+        <Button Grid.Column="0" Grid.Row="7"
+                Grid.ColumnSpan="4" Width="120"
+                Height="35" FontSize="20"
+                VerticalAlignment="Center"
+                HorizontalAlignment="Center"
+                BorderThickness="2" BorderBrush="#C9CBFF"
+                Background="White" Foreground="Black"
+                ToolTip="Добавить сотрудника."
+                Name="InputButton" Click="FileWrite" Content="Отправить">
+            <Button.Resources>
+                <Style TargetType="Border">
+                    <Setter Property="CornerRadius" Value="5"/>
+                </Style>
+            </Button.Resources>
+        </Button>
+    </Grid>
+</Window>
